@@ -15,8 +15,12 @@ pub fn run_types() {
     let _d = 2.5;
     // Explicit type.
     let _y: i64 = 34343434343;
+    // Getting bool from expression.
+    let is_greater: bool = 10 > 7;
 
     // Finding the max sizes of the data types.
     println!("Max i32: {}", std::i32::MAX);
     println!("Max i64: {}", std::i64::MAX);
+
+    println!("{:?}", is_greater);
 }
