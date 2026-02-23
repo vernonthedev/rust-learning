@@ -2,6 +2,7 @@ mod arrays;
 mod condition;
 mod funcs;
 mod loops;
+mod pointers;
 mod print;
 mod tuples;
 mod types;
@@ -36,4 +37,5 @@ fn main() {
     condition::run();
     loops::run();
     funcs::run();
+    pointers::run();
 }
