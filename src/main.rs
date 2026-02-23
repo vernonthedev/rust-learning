@@ -4,6 +4,7 @@ mod funcs;
 mod loops;
 mod pointers;
 mod print;
+mod structs;
 mod tuples;
 mod types;
 mod vectors;
@@ -38,4 +39,5 @@ fn main() {
     loops::run();
     funcs::run();
     pointers::run();
+    structs::run();
 }
