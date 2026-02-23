@@ -1,5 +1,4 @@
-use crate::tuples::run_tuples;
-
+mod arrays;
 mod print;
 mod tuples;
 mod types;
@@ -28,4 +27,5 @@ fn main() {
 
     types::run_types();
     tuples::run_tuples();
+    arrays::run();
 }
