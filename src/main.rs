@@ -2,6 +2,7 @@ mod arrays;
 mod print;
 mod tuples;
 mod types;
+mod vectors;
 
 fn main() {
     println!("Hello, world!");
@@ -28,4 +29,5 @@ fn main() {
     types::run_types();
     tuples::run_tuples();
     arrays::run();
+    vectors::run();
 }
