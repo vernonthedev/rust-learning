@@ -1,4 +1,5 @@
 mod print;
+mod types;
 
 fn main() {
     println!("Hello, world!");
@@ -21,4 +22,6 @@ fn main() {
     println!("{:?}", (12, "Hey", true));
 
     println!("10 + 10 = {}", 10 + 10);
+
+    types::run_types();
 }
