@@ -1,4 +1,5 @@
 mod arrays;
+mod condition;
 mod print;
 mod tuples;
 mod types;
@@ -30,4 +31,5 @@ fn main() {
     tuples::run_tuples();
     arrays::run();
     vectors::run();
+    condition::run();
 }
