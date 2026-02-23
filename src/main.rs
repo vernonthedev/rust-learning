@@ -1,4 +1,7 @@
+use crate::tuples::run_tuples;
+
 mod print;
+mod tuples;
 mod types;
 
 fn main() {
@@ -24,4 +27,5 @@ fn main() {
     println!("10 + 10 = {}", 10 + 10);
 
     types::run_types();
+    tuples::run_tuples();
 }
